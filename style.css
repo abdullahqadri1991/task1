@@ -1,0 +1,104 @@
+#main {
+    width: 90%;
+    height: 50px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+#home,
+#about,
+#projects,
+#services,
+#blog,
+#pages,
+#contact
+ {
+    margin: 10px 10px;
+}
+#touch {
+    margin: 5px 10px;}
+    #touch:hover {
+    background-color: bisque;
+    }
+#home {
+    margin-left: 350px;
+}
+
+#touch {
+    margin-left: 250px;
+    border: 1px solid black;
+    width: 90px;
+    height: 40px;
+
+    
+}
+#home:hover,
+#about:hover,
+#projects:hover,
+#services:hover,
+#blog:hover,
+#pages:hover,
+#contact:hover
+ {
+    color: blue;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    border-bottom: 2px solid red;
+transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+imgmian {
+    position: relative;
+}
+#heading {
+    position: absolute;
+    top: 50px;
+    margin-left: 40%;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+p {
+    position: absolute;
+    top: 90px;
+    margin-left: 35%;
+    margin-top: 220px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#button {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    margin-left: 48%;
+    margin-top: 220px;
+    color: rgb(7, 7, 7);
+    background-color: rgba(240, 248, 255, 0);
+    width: 120PX;
+    height: 30px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+#button:hover {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    margin-left: 48%;
+    margin-top: 220px;
+    color: rgb(237, 7, 7);
+    background-color: rgba(98, 250, 171, 0.68);
+    width: 120PX;
+    height: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(2, 84, 235);
+    cursor: pointer;
+}
